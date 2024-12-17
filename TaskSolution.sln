@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRectangle", "FindRectangle\FindRectangle.csproj", "{41201AA6-1A0B-4C5C-8318-885028E1D265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexNumber", "ComplexNumber\ComplexNumber.csproj", "{A5F57131-AC4A-48B6-9390-07A8BA9F560A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetByNamespaces", "GetByNamespaces\GetByNamespaces.csproj", "{40F66B92-7944-4D9C-9C0E-16F73F48D7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheSumOfIntegers", "TheSumOfIntegers\TheSumOfIntegers.csproj", "{F674557C-7384-4F43-B82C-495580B7D634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41201AA6-1A0B-4C5C-8318-885028E1D265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41201AA6-1A0B-4C5C-8318-885028E1D265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41201AA6-1A0B-4C5C-8318-885028E1D265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41201AA6-1A0B-4C5C-8318-885028E1D265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F57131-AC4A-48B6-9390-07A8BA9F560A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F57131-AC4A-48B6-9390-07A8BA9F560A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F57131-AC4A-48B6-9390-07A8BA9F560A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F57131-AC4A-48B6-9390-07A8BA9F560A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F66B92-7944-4D9C-9C0E-16F73F48D7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F66B92-7944-4D9C-9C0E-16F73F48D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F66B92-7944-4D9C-9C0E-16F73F48D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F66B92-7944-4D9C-9C0E-16F73F48D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F674557C-7384-4F43-B82C-495580B7D634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F674557C-7384-4F43-B82C-495580B7D634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F674557C-7384-4F43-B82C-495580B7D634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F674557C-7384-4F43-B82C-495580B7D634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
