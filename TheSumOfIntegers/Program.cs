@@ -15,7 +15,7 @@ class Program
     {
         Console.Write("Введите число: ");
         int input;
-        while (!int.TryParse(Console.ReadLine(), out input) || input > 1000 || input < -1000)
+        while (!int.TryParse(Console.ReadLine(), out input) || input > 10000 || input < -10000)
         {
             Console.WriteLine("Пожалуйста, введите число 1000 меньше или больше -1000 ");
         }
@@ -27,7 +27,7 @@ class Program
     {
         int incrementOrDecrement = 0;
 
-        if(number == 0) return 0;
+        if (number == 0) return 0;
 
         if (number > 0)
         {
@@ -38,7 +38,7 @@ class Program
         }
         else if (number <= 0)
         {
-            for (int i = number; i < 1; i++)
+            for (int i = number; i <= 1; i++)
             {
                 incrementOrDecrement += i;
             }
@@ -47,6 +47,45 @@ class Program
         return incrementOrDecrement;
     }
 }
+
+
+
+
+
+
+
+// Without any messages only input number output number
+//int unput = int.Parse(Console.ReadLine()!);
+//int result = GetSumOfIntegers(unput);
+
+
+//Console.WriteLine(result);
+
+//static int GetSumOfIntegers(int number)
+//{
+//    int incrementOrDecrement = 0;
+
+//    if (number == 0 || number > 10000 || number < -10000) return 0;
+
+//    if (number > 0)
+//    {
+//        for (int i = 1; i <= number; i++)
+//        {
+//            incrementOrDecrement += i;
+//        }
+//    }
+//    else if (number <= 0)
+//    {
+//        for (int i = number; i <= 1; i++)
+//        {
+//            incrementOrDecrement += i;
+//        }
+//    }
+
+//    return incrementOrDecrement;
+//}
+
+
 
 
 
